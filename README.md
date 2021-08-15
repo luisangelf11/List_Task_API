@@ -12,4 +12,4 @@ For the use of this application you need have installed JSON-Server
 2-Write the command json-server -w -p 3000 db.json
 
 Notes: -p in 3000 because this is the port that i use in the application.
-And if your db.json is in a folder, the direction is folder_name\db.json
+If your db.json is in a folder, the direction is folder_name\db.json
