@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API List Of Tasks</title>
+    <link rel="stylesheet" href="/css/Style.css">
+</head>
+<body>
+    <form id="form-task">
+        <h2 id="title-form">Add Task</h2>
+        <input type="text" name="title" placeholder="Title of the task" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+        <textarea name="message" cols="30" rows="10" placeholder="Insert a description"></textarea>
+        <input type="submit" value="Save">
+        <input type="hidden" name="id">
+    </form>
+    <section id="list">
+        <template id="template-task">
+            <div class="tl">
+                <h3></h3>
+                <p></p>
+                <button id="edit">Edit</button>
+                <button id="delete">Delete</button>
+            </div>
+        </template>
+    </section>
+    <script src="js/Index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Example",
+      "message": "This is a example for my API false with JSON Server and Fetch"
+    },
+    {
+      "title": "Estudiar para el examen",
+      "message": "Practicar las unidades I y IV de biología ",
+      "id": "Q8j87Oy"
+    },
+    {
+      "title": "Legalizar mi acta",
+      "message": "Ir a San Francisco de Macorís a legalizar mi acta de nacimiento. Hora de salida 7:00AM",
+      "id": "AGg_OS6"
+    },
+    {
+      "title": "Practicar JS",
+      "message": "A las 8:30PM hacer breves practicas de JS usando API's",
+      "id": "1_V3fVX"
+    },
+    {
+      "title": "Correr",
+      "message": "Realizar mi rutina de correr/trotar por lo menos 5KM a las 5:00PM",
+      "id": "pbKvnhR"
+    }
+  ]
+}
